@@ -28,5 +28,32 @@
      
      2. sendTo() (which is payable) function of the avoByEmail smart contract to store the email hash 
         and pay the transaction fees to the contract which in turn would be transferred to the recpient
+        
+   Then an email is sent to the recipient.If the user clicks accept token he is directed to a screen where needs
+   to call the receive() function of the smart contract by entering his email and sender's address (mentioned in the 
+   email sent).Then token would be transferred to receiver's address along with the fee that he had to pay.
+   
+   # Running the app
+   
+     > Clone this repository
+     
+     > Open terminal switch to the cloned repository location
+     
+     > npm install --save
+     
+     > cd client && npm install --save
+     
+     > cd ..
+     
+     > npm run dev
+       The backend server will run at http://localhost:5000 and react app at localhost://3000
+     
+     > See the app running at http://localhost:3000
+     
+     Please Note that the transaction fees amount has been hardcoded in the app.For sending email make sure to enter your          gmail id and password in the  path/avocado-by-email/index.js file 
+     
+     For recipient - Make sure metamask is installed and you are able to access http://localhost:3000 (as the app runs              locally)
+     
+   
  
  
