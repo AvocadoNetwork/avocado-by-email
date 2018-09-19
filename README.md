@@ -50,9 +50,9 @@
      
      > See the app running at http://localhost:3000
      
-     Please Note that the transaction fees amount has been hardcoded in the app.For sending email make sure to enter your          gmail id and password in the  path/avocado-by-email/index.js file 
+        Please Note that the transaction fees amount has been hardcoded in the app.For sending email make sure to enter your gmail id and password in the  path/avocado-by-email/index.js file 
      
-     For recipient - Make sure metamask is installed and you are able to access http://localhost:3000 (as the app runs              locally)
+     For recipient - Make sure metamask is installed and you are able to access http://localhost:3000 (as the app runs locally)
      
    
  
