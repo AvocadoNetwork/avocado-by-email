@@ -1,0 +1,11 @@
+.myform {
+  margin-top:40px!important;
+  padding: 5px;
+  border:1px solid grey;
+  border-radius: 5px;
+  width:30%;
+  display: block;
+  margin:auto;
+  text-align: center;
+  box-shadow: 0.5px 0.5px 0.5px 0.5px;
+}
