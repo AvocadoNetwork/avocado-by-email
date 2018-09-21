@@ -1,0 +1,4 @@
+import web3 from "./getWeb3";
+const address='0x55E9D99646A3fd56375fCA795FD2db5510A990e1';
+const abi=[{"constant":false,"inputs":[{"name":"email","type":"string"},{"name":"tokens","type":"uint256"}],"name":"sendTo","outputs":[{"name":"","type":"bool"}],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[{"name":"","type":"address"},{"name":"","type":"bytes32"}],"name":"sendDetail","outputs":[{"name":"token","type":"uint256"},{"name":"val","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"email","type":"string"},{"name":"_sender","type":"address"}],"name":"receive","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[{"name":"tokenInsatance","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]
+export default new web3.eth.Contract(abi, address);
